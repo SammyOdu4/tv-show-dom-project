@@ -63,14 +63,17 @@ window.onload = setup;
 
 //3. You should combine season number and episode number into an episode code:
 //i. Each part should be zero-padded to two digits.
+//Answer at Line 31: 
 //numbs.innerText = `Season S0${episodeList[i].season}`;
 
 
 //ii. Example: S02E07 would be the code for the 7th episode of the 2nd season. S2E7 would be incorrect.
+//Answer at Line 37: 
 //num.innerText = `S0${episodeList[i].season}E0${episodeList[i].number}`;
 
 
 //4. Your page should state somewhere that the data has (originally) come from TVMaze.com, and link back to that site (or the specific episode on that site). See tvmaze.com/api#licensing.
+//Answers at line 53 - 59: 
 //let tvLink = document.createElement("h5");
 //tvLink.innerHTML = `The data has (originally) come from 
 //<a href="https://www.tvmaze.com/">  
