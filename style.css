@@ -1,3 +1,30 @@
 #root {
   color: red;
 }
+
+.myGrid {
+  display: flex;
+  flex-flow: row wrap;
+  align-content: space-around;
+}
+.myEpisode {
+  font-size: medium;
+}
+
+.mySeason {
+  color : green;
+}
+
+.mySummary {
+  font-size: medium;
+  color: Indigo;
+}
+
+.myEpisode {
+ color : blue; 
+}
+
+.myName {
+  font-size: large;
+  color: Crimson;
+}
