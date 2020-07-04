@@ -51,11 +51,15 @@ cardDiv.appendChild(summary1);
 
 episodesDiv.appendChild(cardDiv);
 let tvLink = document.createElement("h5");
-tvLink.innerHTML = `The data has (originally) come from 
-<a href="https://www.tvmaze.com/">  
-  TVMaz </a>
-`
-tvLink.className = "myTvLink";
+let hy = document.createElement("a");
+hy.innerText = "tvmaz";
+hy.href = episodeList[i].url;
+tvLink.appendChild(hy);
+//tvLink.innerHTML = `The data has (originally) come from 
+//<a href="https://www.tvmaze.com/">  
+ //TVMaz </a>
+
+//tvLink.className = "myTvLink";
 cardDiv.appendChild(tvLink);
   }
 }
